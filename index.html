@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shift Cipher</title>
+    <link rel="stylesheet" href="resources/styles/index.css">
+    <script type="module" src="resources/scripts/index.js" defer></script>
+</head>
+<body>
+    <main>
+        <h1>Shift Cipher</h1>
+        <label for="input-message">Message:</label>
+        <textarea name="input-message" id="input-message" rows="5" cols="50"></textarea>
+        <label for="shift">Shift amount:</label>
+        <input type="number" name="shift" id="shift" value="2">
+        <div class="button-container">
+            <button id="encrypt-btn">Encrypt</button>
+            <button id="decrypt-btn">Decrypt</button>
+        </div>
+        <label for="output-message">Output-message:</label>
+        <textarea name="output-message" id="output-message" cols="50" rows="5"></textarea>
+    </main>
+</body>
+</html>
